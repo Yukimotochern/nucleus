@@ -1,0 +1,8 @@
+{
+  "typescriptExplorer.typeTree.selection.enable": false,
+  "typescriptExplorer.typeTree.maxRecursionDepth": 10,
+  "typescriptExplorer.errorMessages.log": false,
+  "typescriptExplorer.typeTree.meta.typeArguments.maxLength": 15,
+  "typescriptExplorer.typeTree.readonly.enable": true,
+  "typescriptExplorer.typeTree.meta.typeArguments.includeInFunctions": true
+}

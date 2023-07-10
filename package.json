@@ -55,10 +55,23 @@
     "vitest": "^0.32.0"
   },
   "dependencies": {
+    "@fastify/cookie": "^8.3.0",
+    "@fastify/helmet": "^11.0.0",
+    "@fastify/swagger": "^8.8.0",
+    "@fastify/swagger-ui": "^1.9.2",
     "@swc/helpers": "~0.5.0",
+    "@trpc/client": "^10.34.0",
+    "@trpc/server": "^10.34.0",
     "axios": "^1.0.0",
+    "fastify": "^4.19.2",
+    "lodash": "^4.17.21",
+    "pino": "^8.14.1",
+    "pino-caller": "^3.4.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "tslib": "^2.3.0"
+    "superjson": "^1.12.4",
+    "trpc-openapi": "^1.2.0",
+    "tslib": "^2.3.0",
+    "zod": "^3.21.4"
   }
 }
