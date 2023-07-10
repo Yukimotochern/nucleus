@@ -2,6 +2,12 @@
   "compileOnSave": false,
   "compilerOptions": {
     "rootDir": ".",
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
     "declaration": false,
     "moduleResolution": "node",
@@ -14,7 +20,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nucleus/api": ["packages/api/src/index.ts"],
+      "@nucleus/router": ["packages/router/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

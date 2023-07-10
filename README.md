@@ -28,6 +28,13 @@ The `backend` and `backend` are generated with
 npx nx generate @nx/node:application --name=backend --bundler=webpack --frontendProject=frontend --docker=true --port=4700 --swcJest=true --babelJest=true --no-interactive
 ```
 
+### Other Libraries
+
+```bash
+npx nx generate @nx/node:library --name=router --buildable=true --compiler=swc --babelJest=true --testEnvironment=node --standaloneConfig=false --no-interactive
+npx nx generate @nx/node:library --name=api --buildable=true --compiler=swc --babelJest=true --testEnvironment=node --standaloneConfig=false --no-interactive
+```
+
 ## Generate code
 
 If you happen to use Nx plugins, you can leverage code generators that might come with it.
